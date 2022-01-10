@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600&family=Piazzolla:wght@200;300;400;900&family=Quicksand:wght@500;600&family=Roboto+Condensed:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+:root {
+    --primary-white: #fff;
+    --primary-red: #f90000;
+    --primary-dark: rgba(255, 255, 255, 0);
+}
+
+/******************** navbar style start *******************/
+.logo {
+  width: 4rem;
+  overflow: hidden;
+  border-radius: 60px;
+  box-shadow: 5px 2px 20px 12px rgba(212, 212, 221, 0.2);
+  animation: nav_name_animation alternate 2s linear infinite;
+}
+
+.logo:hover {
+  /* box-shadow: 5px 2px 20px 12px rgba(255, 4, 4, 0.596); */
+  animation: nav_name_animation alternate 1.5s linear infinite;
+  /* height: 3.6rem; */
+}
+
+@keyframes nav_name_animation {
+  from {
+    box-shadow: 5px 6px 20px 5px rgba(155, 0, 0, 0.788);
+}to {
+    box-shadow: 5px 6px 20px 5px rgba(123, 42, 252, 0.596);
+}
+}
+
+.navbar {
+    width: 100vw;
+}
+
+.navbar-brand {
+  /* margin: 0rem 1rem; */
+}
+.name_tag {
+  color: red;
+}
+
+.name_tag2 {
+  color: blue;
+}
+.navbar-nav > li > a  {
+  margin-right: 3rem;
+  /* color: var(--primary-white) !important; */
+  border-bottom: 0.1875rem solid var(--primary-dark);
+  transition: 0.8s;
+}
+
+nav ul li {
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-bottom: 0.1875rem solid var(--primary-red);
+}
+
+
+/******************** navbar style start *******************/
+
+.header-wraper {
+  position: relative;
+  background: url("../images/home11.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  border-top: solid 3px white;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.info1 {
+  color: rgb(138, 138, 138);
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.info2 {
+  color: var(--primary-white);
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.info3 {
+  color: var(--primary-red);
+  text-transform: capitalize;
+}
+
+.moreinfo {
+  color: var(--primary-white);
+  width: auto;
+  margin: 2rem 2.5rem;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: pre-line; /* Keeps the content on a single line */
+  margin: 3rem; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.button {
+  color: var(--primary-white);
+  background-color: var(--primary-dark);
+  border-radius: 0.4rem;
+  width: 9rem;
+  height: 3rem;
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+}
+.button:hover {
+  color: var(--primary-red);
+  background-color: var(--primary-dark);
+}
+
+
+/* ****************** project style start************ */
+
+.container_project {
+  width: 100vw;
+  height: 100vh;
+}
+
+.main_project {
+  border-top: solid 3px white;
+  background: url("../images/home11.jpg");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+
+/* .project_main {
+  border: red solid 3px;
+  height: 100%;
+  background-color: blueviolet;
+} */
+.project_h1 {
+  color: var(--primary-white);
+}
+/* projec card style  */
+
+.card {
+  /* border:  3px red solid; */
+  border-radius: 20px;
+}
+
+.card-img-top {
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card-title {
+  color: red;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.card-text {
+  color: black;
+  font-size: 1.2rem;
+  height: 6rem;
+}
+
+.button_project {
+  color: white;
+  background-color: rgb(102, 99, 99);
+  border-radius: 0.6rem;
+  width: 6rem;
+  height: 3rem;
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+}
+
+.button_project:hover {
+  color: black;
+}
+
+/**************** about section style start ***************/
+
+.about_main {
+  /* border:  solid 3px green; */
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/home11.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.about_main_div {
+  /* border:  solid 3px darkorange; */
+  border-top:  solid 3px rgb(255, 255, 255);
+}
+
+.about_heading {
+  /* border:  solid 2px red; */
+  color: rgb(255, 4, 4);
+  text-align: center;
+}
+/*  
+.infome {
+  border:  solid 2px rgba(255, 4, 4, 0.596);
+} */
+
+.about_me {
+  /* border:  solid 2px yellow; */
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  padding: 2rem;
+  margin-left: 3.5rem;
+}
+
+.about_container {
+  /* border: solid 2px red; */
+  display: flex;
+  flex-direction: column;
+}
+
+.skills {
+  /* border: solid /3px red; */
+  margin-left: 5rem;
+  height: 2rem;
+  width: 40vw;
+
+}
+
+.skill_heading {
+  color: red;
+  font-weight: 700;
+  border-bottom: 3px white solid;
+  width: 10rem;
+}
+
+.skills_name {
+  color: black;
+}
+
+.html {
+  /* border: solid 3px rgb(255, 255, 255); */
+  margin-top: 1.3rem;
+  width: 75%;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 0 7px 7px 0;
+  border: none;
+  color: black;
+}
+.css {
+  /* border: solid 3px green; */
+  margin-top: 1.3rem;
+  width: 70%;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 0 7px 7px 0;
+  border: none;
+  color: black;
+}
+.javaScript {
+  /* border: solid 3px black; */
+  margin-top: 1.3rem;
+  width: 40%;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 0 7px 7px 0;
+  border: none;
+  color: black;
+}
+.React {
+  /* border: solid 3px darkgoldenrod; */
+  /* margin-top: 1.3rem; */
+  width: 50%;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 0 7px 7px 0;
+  border: none;
+  color: black;
+}
+
+.expressjs {
+  margin-top: 1.3rem;
+  width: 40%;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 0 7px 7px 0;
+  border: none;
+  color: black;
+}
+
+.social_media {
+  /* border:  solid 2px black; */
+  text-align: center;
+  width: 100vw;
+  background: url("../images/home11.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.social_media_heading {
+  color: white;
+  
+}
+
+.links {
+  /* border:  solid 2px red; */
+  font-size: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.aLink {
+  color: #fff;
+    padding: 1rem;
+    transition: 700ms;
+}
+
+.aLink:hover {
+  color: var(--primary-red);
+}
+
+/***************** for responsive website ****************/
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 377px) {
+  .button {
+    display: none;
+  }
+  .header-wraper {
+    height: auto;
+  }
+  .card-title {
+    font-size: 1.5rem;
+  }
+  .card-text {
+    font-size: 0.8rem;
+  }
+  .infome {
+    display: grid;
+    margin-top: -2.6rem;
+  }
+  .about_main {
+    display: grid;
+  }
+  .about_me {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .skills {
+    font-size: .6rem;
+    margin: 0.6rem 1rem;
+    margin-top: -1.5rem;
+  width: 18rem;
+  height: 0.2rem;
+  }
+  .skill_heading {
+    margin-top: 1.5rem;
+
+  }
+  .social_media {
+    height: auto;
+    width: 100vw;
+    margin-left: 0rem;
+  }
+  .links {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header-wraper {
+    height: auto;
+  }
+  .card-title {
+    font-size: 1.8rem;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+  .infome {
+    display: grid;
+    margin-top: -2.6rem;
+  }
+  .about_main {
+    display: grid;
+  }
+  .about_me {
+    font-size: 1rem;
+    margin: 1.1rem;
+  }
+  .skills {
+    margin: 0.8rem 1.3rem;
+    margin-top: -1.8rem;
+  width: 21rem;
+  height: 0.38rem;
+  }
+  .social_media {
+    height: auto;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .header-wraper {
+    height: auto;
+  }
+  .card-title {
+    font-size: 1.8rem;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+  .infome {
+    display: grid;
+    margin-top: -2.6rem;
+  }
+  .about_main {
+    display: grid;
+  }
+  .about_me {
+    font-size: 1rem;
+    margin: 1.1rem;
+  }
+  .skills {
+    margin: 0.8rem 1.3rem;
+    margin-top: -1.8rem;
+  width: 21rem;
+  height: 0.38rem;
+  }
+  .social_media {
+    height: auto;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 600px)  and (max-width: 768px) {
+  .header-wraper {
+    height: auto;
+  }
+  .card-title {
+    font-size: 1.8rem;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+  .infome {
+    display: grid;
+    margin-top: -2.6rem;
+  }
+  .about_main {
+    display: grid;
+  }
+  .about_me {
+    font-size: 1.4rem;
+    margin: 1.3rem;
+  }
+  .skills {
+    margin: 0.9rem 1.5rem;
+    margin-top: -1.8rem;
+  width: 22rem;
+  height: 0.38rem;
+  }
+  .social_media {
+    height: auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .header-wraper {
+    height: auto;
+  }
+  .card-title {
+    font-size: 1.8rem;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+  .infome {
+    display: grid;
+    margin-top: -2.6rem;
+  }
+  .about_main {
+    display: grid;
+  }
+  .about_me {
+    font-size: 1.6rem;
+    margin: 1.4rem;
+  }
+  .skills {
+    margin: 0.9rem 1.5rem;
+    margin-top: -1.5rem;
+  width: 22rem;
+  height: 0.38rem;
+  }
+  .social_media {
+    height: auto;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 992) and (max-width: 1200px) {
+  .header-wraper {
+    height: auto;
+  }
+  .card-title {
+    font-size: 1.8rem;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+  .infome {
+    display: grid;
+    margin-top: -2.6rem;
+  }
+  .about_main {
+    display: grid;
+  }
+  .about_me {
+    font-size: 1.8rem;
+    margin: 1.5rem;
+  }
+  .skills {
+    margin: 0.9rem 1.5rem;
+    margin-top: -1rem;
+  width: 24rem;
+  height: 0.38rem;
+  }
+  .social_media {
+    height: auto;
+  }
+}
