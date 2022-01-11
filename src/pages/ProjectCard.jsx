@@ -12,9 +12,7 @@ const ProjectCard = (props) => {
                     <div className="card-body">
                         <h5 className="card-title font-weight-bold">{props.title}</h5>
                         <p className="card-text">{props.detail}.</p>
-                        {/* <NavLink to ="/project" className= "button"><button>Check It</button></NavLink> */}
                         <a className='projectLink' href={props.link} target= "_blank"><button className="button_project">Check It</button></a>
-                        <a className='projectLink2' href={props.link} target= "_blank"><button className="button_project">Check It</button></a>
                     </div>
                 </div>
             </div> 
