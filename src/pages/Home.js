@@ -14,7 +14,7 @@ const Home = () => {
                         <h1 className="info2">Based in INDIA.</h1>
                     </div>
                     <div className="moreinfo">
-                        <h3>Hello, I am Manikant Mani. I am a front-end web developer. I am a Reactjs learner. I have learnt my all course from online sourses and I want to explore my skillks to work with real time work.</h3>
+                        <h3>I am looking for full time opportunities/ internship opportunities in the front-end development. To explore my development projects, please go to project section.</h3>
                     </div>
                     <NavLink to="/project"><button className='button'>my projects</button></NavLink>
                 </div>
