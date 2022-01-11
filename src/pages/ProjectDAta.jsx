@@ -3,7 +3,6 @@ import project2 from "../images/List-your-item.png";
 import project3 from "../images/tigerZym.png";
 import project4 from "../images/Best-quotes.png";
 import project5 from "../images/weather1.png";
-import project6 from "../images/statewise.png";
 import project7 from "../images/webLearn.png";
 
 
@@ -22,9 +21,9 @@ const ProData = [
     },
     {
         imgsrc: project3,
-        title: "A zym website",
-        link: "https://manikantmani.github.io/Tiger-zym/",
-        detail: "Using Bootstrap 5 and React I make a dynamic website. This react web is created for a zym class. ",
+        title: "A gym website",
+        link: "https://manikantmani.github.io/tiger-gym/",
+        detail: "Using Bootstrap 5 and React I make a dynamic website. This react web is created for a gym class. ",
     },
     {
         imgsrc: project5,
@@ -35,22 +34,15 @@ const ProData = [
     {
         imgsrc: project7,
         title: "DesignX Website",
-        link: "https://manikantmani.github.io/Web-Learn/home",
+        link: "https://manikantmani.github.io/DesignX/home",
         detail: "This website is for  startup copanny who provides online service. Like web design , web development and more.",
     },
     {
         imgsrc: project4,
         title: "Best quotes",
-        link: "https://github.com/ManikantMani/best-quots",
+        link: "https://manikantmani.github.io/best-quotes-live/",
         detail: "This web app gives the best quotes and its author name. This web app  fetching data from real world api.",
-    },
-    ,
-    {
-        imgsrc: project6,
-        title: "Statewise covid data",
-        link: "https://github.com/ManikantMani/statewise-covidData ",
-        detail: "This web aap gives all over India  covid19 cases with statewise . This web app fetch all the data through real world api.",
-    },
+    }, 
 ]
 
 export default ProData;
