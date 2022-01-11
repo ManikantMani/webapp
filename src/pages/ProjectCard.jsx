@@ -6,7 +6,7 @@ import "./style.css"
 const ProjectCard = (props) => {
     return (
         <>
-             <div className="card_main col-md-4 col-10 mx-auto">
+             <div className="card_main col-md-4 col-12 mx-auto">
                 <div className="card">
                     <img src={props.imgsrc} className="card-img-top" alt="propsimgsrc" />
                     <div className="card-body">
