@@ -37,7 +37,7 @@
 }
 
 .navbar {
-    width: 100vw;
+    width: 100%;
 }
 
 .navbar-brand {
@@ -147,8 +147,9 @@ nav ul li {
 /* ****************** project style start************ */
 
 .container_project {
-  width: 100vw;
-  height: 100vh;
+  /* border: solid 2px red; */
+  /* width: 100vw;
+  height: auto; */
 }
 
 .main_project {
@@ -156,9 +157,15 @@ nav ul li {
   background: url("../images/home11.jpg");
   background-size: cover;
   background-position: center;
+  height: 100vh;
+}
+.main_project_for_project_page_only {
   height: auto;
 }
 
+.main_project_for_desktop_project_page_only {
+  height: 100vh;
+}
 /* .project_main {
   border: red solid 3px;
   height: 100%;
@@ -211,7 +218,7 @@ nav ul li {
 
 .about_main {
   /* border:  solid 3px green; */
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background: url("../images/home11.jpg");
   background-size: cover;
@@ -242,7 +249,7 @@ nav ul li {
 }
 
 .about_container {
-  /* border: solid 2px red; */
+  border: solid 2px transparent;
   display: flex;
   flex-direction: column;
 }
@@ -306,7 +313,10 @@ nav ul li {
   border: none;
   color: black;
 }
-
+.next_js {
+  width: 60%;
+  margin-top: 1.3rem;
+}
 .expressjs {
   margin-top: 1.3rem;
   width: 40%;
@@ -355,6 +365,15 @@ nav ul li {
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 377px) {
+  .main_project_responsive {
+    height: auto;
+  }
+  .main_project_for_desktop_project_page_only {
+    height: auto;
+  }
+  .main_project {
+    height: auto;
+  }
   .button {
     display: none;
   }
@@ -372,10 +391,13 @@ nav ul li {
     margin-top: -2.6rem;
   }
   .about_main {
-    display: grid;
+    border:  solid 3px red;
+    /* display: grid; */
   }
   .about_me {
+    border: solid 2px green;
     font-size: 1.2rem;
+    /* border:  solid 3px red; */
     margin: 0;
   }
   .skills {
@@ -401,6 +423,9 @@ nav ul li {
 
 @media only screen and (max-width: 500px) {
   .header-wraper {
+    height: auto;
+  }
+  .main_project_for_desktop_project_page_only {
     height: auto;
   }
   .card-title {
@@ -434,6 +459,9 @@ nav ul li {
 
 @media only screen and (max-width: 600px) {
   .header-wraper {
+    height: auto;
+  }
+  .main_project_for_desktop_project_page_only {
     height: auto;
   }
   .card-title {
@@ -472,6 +500,9 @@ nav ul li {
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 600px)  and (max-width: 768px) {
   .header-wraper {
+    height: auto;
+  }
+  .main_project_for_desktop_project_page_only {
     height: auto;
   }
   .card-title {

@@ -6,6 +6,9 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Project from './pages/Project';
 import Error404 from './pages/Error404';
+import AssignmentProject from './pages/assignment/AssignmentProject';
+import Footer from './components/footer/Footer';
+import DesktopProject from './pages/forDesktop/DesktopProject';
 
 const App = () => {
     return (
@@ -16,8 +19,11 @@ const App = () => {
       <Route  path = "/My-Portfolio-live" element = {<Home />} />
       <Route  path = "/about" element = {<About />} />
       <Route  path = "/project" element = {<Project />} />
+      <Route  path = "/assignment_project" element = {<AssignmentProject/>} />
+      <Route  path = "/desktop_project" element = {<DesktopProject/>} />
       <Route  path = "*" element = {<Error404 />} />
       </Routes> 
+      <Footer />
         </>
     )
 }

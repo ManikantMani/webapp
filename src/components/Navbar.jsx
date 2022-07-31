@@ -6,7 +6,7 @@ import logo from "../images/logo1.png";
 const Navbar = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{width:"100%", height: "auto"}}>
         <div className="container">
           <NavLink className="navbar-brand" to="/">
             <span><img className="logo" src={logo} alt="" />
@@ -34,6 +34,16 @@ const Navbar = () => {
               <li className="nav-item">
                 <NavLink className="nav-link " aria-current="page" to="/project">
                   Projects
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link " aria-current="page" to="/assignment_project">
+                  Assignment/Projects
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link " aria-current="page" to="/desktop_project">
+                  Desktop/Only
                 </NavLink>
               </li>
               <li className="nav-item">

@@ -1,0 +1,34 @@
+.social_media {
+    /* border:  solid 2px red; */
+    text-align: center;
+    width: 100%;
+    height: 5rem;
+    background: url("../../images/home11.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .social_media_heading {
+    color: white;
+    
+  }
+  
+  .links {
+    /* border:  solid 2px red; */
+    font-size: 2rem;
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aLink {
+    color: #fff;
+      padding: 1rem;
+      transition: 700ms;
+      margin-top: 1rem;
+  }
+  
+  .aLink:hover {
+    color: var(--primary-red);
+  }

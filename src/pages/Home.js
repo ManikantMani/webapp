@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Home = () => {
     return (
         <>
-            <div className="header-wraper">
+            <div className="header-wraper" style={{width:"100%"}}>
                 <div className="main-info">
                     <div className="info">
                         <h2 className="info1">welcome to my world</h2>
