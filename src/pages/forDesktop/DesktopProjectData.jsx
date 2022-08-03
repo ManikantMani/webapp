@@ -1,5 +1,4 @@
 import project1 from "../../images/dashboard1.png";
-import project2 from "../../images/project2.png";
 import dashboard2 from "../../images/dashboard3.png";
 
 const DesktopProjectData = [

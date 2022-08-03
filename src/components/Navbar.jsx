@@ -37,6 +37,11 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
+                <NavLink className="nav-link " aria-current="page" to="/internship_project">
+                  Internship/Project
+                </NavLink>
+              </li>
+              <li className="nav-item">
                 <NavLink className="nav-link " aria-current="page" to="/assignment_project">
                   Assignment/Projects
                 </NavLink>

@@ -19,12 +19,12 @@
   overflow: hidden;
   border-radius: 60px;
   box-shadow: 5px 2px 20px 12px rgba(212, 212, 221, 0.2);
-  animation: nav_name_animation alternate 2s linear infinite;
+  /* animation: nav_name_animation alternate 2s linear infinite; */
 }
 
 .logo:hover {
   /* box-shadow: 5px 2px 20px 12px rgba(255, 4, 4, 0.596); */
-  animation: nav_name_animation alternate 1.5s linear infinite;
+  /* animation: nav_name_animation alternate 1.5s linear infinite; */
   /* height: 3.6rem; */
 }
 
@@ -391,11 +391,11 @@ nav ul li {
     margin-top: -2.6rem;
   }
   .about_main {
-    border:  solid 3px red;
+    /* border:  solid 3px red; */
     /* display: grid; */
   }
   .about_me {
-    border: solid 2px green;
+    /* border: solid 2px green; */
     font-size: 1.2rem;
     /* border:  solid 3px red; */
     margin: 0;
