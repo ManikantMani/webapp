@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/webapp/static/css/main.327c070e.css",
-    "main.js": "/webapp/static/js/main.88caea5d.js",
+    "main.css": "/webapp/static/css/main.75489700.css",
+    "main.js": "/webapp/static/js/main.c475cf64.js",
     "static/js/787.d302bc05.chunk.js": "/webapp/static/js/787.d302bc05.chunk.js",
+    "static/media/int2.png": "/webapp/static/media/int2.0084eb955c85aa291aa4.png",
     "static/media/hippatext.png": "/webapp/static/media/hippatext.116d7940f550f68475b6.png",
     "static/media/sipto.png": "/webapp/static/media/sipto.eb9995650bbded8eb9a1.png",
+    "static/media/int5.png": "/webapp/static/media/int5.0921aa4956d5b598eebf.png",
     "static/media/dashboard3.png": "/webapp/static/media/dashboard3.a9c209d683ce7455ee71.png",
+    "static/media/int3.png": "/webapp/static/media/int3.89132aad121577fda2f8.png",
+    "static/media/int9.png": "/webapp/static/media/int9.32972addb9b76c5f9694.png",
+    "static/media/int1.png": "/webapp/static/media/int1.0b571cfa248c8803fbff.png",
+    "static/media/int7.png": "/webapp/static/media/int7.32bf5abe4ae311f20b04.png",
+    "static/media/int6.png": "/webapp/static/media/int6.ea0e48872d380342bcd5.png",
     "static/media/webLearn.png": "/webapp/static/media/webLearn.61f2909d27a158f9ffe2.png",
     "static/media/dashboard1.png": "/webapp/static/media/dashboard1.50e832cc6073faefda79.png",
-    "static/media/project2.png": "/webapp/static/media/project2.f9038044afabb6af3d38.png",
+    "static/media/int4.png": "/webapp/static/media/int4.3f12d2a30cde0271959a.png",
     "static/media/web1.png": "/webapp/static/media/web1.abc0c6184349ce2eaf34.png",
+    "static/media/int8.png": "/webapp/static/media/int8.7a58b07aa868a5ef4aac.png",
     "static/media/tigerZym.png": "/webapp/static/media/tigerZym.5054f64f75a379183b7f.png",
     "static/media/calculator.png": "/webapp/static/media/calculator.757aff7b65f46ff5a14e.png",
     "static/media/Best-quotes.png": "/webapp/static/media/Best-quotes.89f9d9713e8eff54937e.png",
@@ -17,12 +25,12 @@
     "static/media/weather1.png": "/webapp/static/media/weather1.48bbb7ecb4b546deec79.png",
     "static/media/home11.jpg": "/webapp/static/media/home11.eea9dead15f241f1b359.jpg",
     "index.html": "/webapp/index.html",
-    "main.327c070e.css.map": "/webapp/static/css/main.327c070e.css.map",
-    "main.88caea5d.js.map": "/webapp/static/js/main.88caea5d.js.map",
+    "main.75489700.css.map": "/webapp/static/css/main.75489700.css.map",
+    "main.c475cf64.js.map": "/webapp/static/js/main.c475cf64.js.map",
     "787.d302bc05.chunk.js.map": "/webapp/static/js/787.d302bc05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.327c070e.css",
-    "static/js/main.88caea5d.js"
+    "static/css/main.75489700.css",
+    "static/js/main.c475cf64.js"
   ]
 }
