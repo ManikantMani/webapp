@@ -7,7 +7,7 @@ const AssignmentProject = () => {
   return (
     <>
         <div className="container_project" style={{width:"100%", height: "auto"}} >
-        <div className="main_project main_project_for_desktop_project_page_only">
+        <div className="main_project main_project_for_project_page_only">
             <h1 className="text-center project_h1" style={{margin: "10px"}}>My Assignment Projects</h1>
             <div className="container-fluid project_main mb-auto">
                 <div className="row1">
