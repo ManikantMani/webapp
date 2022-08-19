@@ -1,8 +1,10 @@
 .social_media {
-    /* border:  solid 2px red; */
+    border:  solid 2px red;
     text-align: center;
     width: 100%;
+    align-items: center;
     height: 5rem;
+    padding-top: 0.8rem;
     background: url("../../images/home11.jpg");
     background-size: cover;
     background-position: center;
@@ -16,7 +18,6 @@
   .links {
     /* border:  solid 2px red; */
     font-size: 2rem;
-    
     text-align: center;
     justify-content: center;
     align-items: center;

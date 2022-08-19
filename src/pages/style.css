@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600&family=Piazzolla:wght@200;300;400;900&family=Quicksand:wght@500;600&family=Roboto+Condensed:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600&family=Piazzolla:wght@200;300;400;900&family=Quicksand:wght@500;600&family=Roboto+Condensed:wght@300&family=Source+Code+Pro:wght@300&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 :root {
-    --primary-white: #fff;
-    --primary-red: #f90000;
-    --primary-dark: rgba(255, 255, 255, 0);
+  --primary-white: #fff;
+  --primary-red: red;
+  --primary-dark: rgba(255, 255, 255, 0);
 }
 
 /******************** navbar style start *******************/
@@ -31,13 +31,14 @@
 @keyframes nav_name_animation {
   from {
     box-shadow: 5px 6px 20px 5px rgba(155, 0, 0, 0.788);
-}to {
+  }
+  to {
     box-shadow: 5px 6px 20px 5px rgba(123, 42, 252, 0.596);
-}
+  }
 }
 
 .navbar {
-    width: 100%;
+  width: 100%;
 }
 
 .navbar-brand {
@@ -50,7 +51,7 @@
 .name_tag2 {
   color: blue;
 }
-.navbar-nav > li > a  {
+.navbar-nav > li > a {
   margin-right: 3rem;
   /* color: var(--primary-white) !important; */
   border-bottom: 0.1875rem solid var(--primary-dark);
@@ -58,13 +59,13 @@
 }
 
 nav ul li {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
   border-bottom: 0.1875rem solid var(--primary-red);
 }
-
 
 /******************** navbar style start *******************/
 
@@ -110,22 +111,29 @@ nav ul li {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: pre-line; /* Keeps the content on a single line */
   margin: 3rem; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }
 
 .button {
@@ -142,7 +150,6 @@ nav ul li {
   color: var(--primary-red);
   background-color: var(--primary-dark);
 }
-
 
 /* ****************** project style start************ */
 
@@ -226,8 +233,7 @@ nav ul li {
 }
 
 .about_main_div {
-  /* border:  solid 3px darkorange; */
-  border-top:  solid 3px rgb(255, 255, 255);
+  border-top: solid 3px rgb(255, 255, 255);
 }
 
 .about_heading {
@@ -241,16 +247,18 @@ nav ul li {
 } */
 
 .about_me {
-  /* border:  solid 2px yellow; */
-  font-size: 2rem;
-  color: rgb(255, 255, 255);
+  height: auto;
+  font-size: 1.8rem;
   padding: 2rem;
-  margin-left: 3.5rem;
+  margin: 2rem;
+  /* border:  solid 2px yellow; */
+  color: var(--primary-white);
 }
 
 .about_container {
   border: solid 2px transparent;
   display: flex;
+  width: fit-content;
   flex-direction: column;
 }
 
@@ -259,7 +267,6 @@ nav ul li {
   margin-left: 5rem;
   height: 2rem;
   width: 40vw;
-
 }
 
 .skill_heading {
@@ -334,12 +341,10 @@ nav ul li {
   background: url("../images/home11.jpg");
   background-size: cover;
   background-position: center;
-
 }
 
 .social_media_heading {
   color: white;
-  
 }
 
 .links {
@@ -352,8 +357,8 @@ nav ul li {
 
 .aLink {
   color: #fff;
-    padding: 1rem;
-    transition: 700ms;
+  padding: 1rem;
+  transition: 700ms;
 }
 
 .aLink:hover {
@@ -375,7 +380,7 @@ nav ul li {
     height: auto;
   }
   .button {
-    display: none;
+    margin-bottom: 1rem;
   }
   .header-wraper {
     height: auto;
@@ -387,29 +392,32 @@ nav ul li {
     font-size: 0.8rem;
   }
   .infome {
-    display: grid;
+    width: fit-content;
     margin-top: -2.6rem;
   }
   .about_main {
-    /* border:  solid 3px red; */
-    /* display: grid; */
+    /* border: solid 3px red; */
+    width: 100%;
+  }
+  .about_main_div {
+    /* border: solid 3px darkorange; */
+    width: 100vw;
   }
   .about_me {
     /* border: solid 2px green; */
-    font-size: 1.2rem;
-    /* border:  solid 3px red; */
+    font-size: 1rem;
     margin: 0;
+    padding: 0;
   }
   .skills {
-    font-size: .6rem;
-    margin: 0.6rem 1rem;
+    font-size: 0.6rem;
+    /* margin: 0.6rem 1rem; */
     margin-top: -1.5rem;
-  width: 18rem;
-  height: 0.2rem;
+    width: 18rem;
+    height: 0.2rem;
   }
   .skill_heading {
     margin-top: 1.5rem;
-
   }
   .social_media {
     height: auto;
@@ -428,6 +436,9 @@ nav ul li {
   .main_project_for_desktop_project_page_only {
     height: auto;
   }
+  .button {
+    margin-bottom: 1rem;
+  }
   .card-title {
     font-size: 1.8rem;
   }
@@ -448,14 +459,13 @@ nav ul li {
   .skills {
     margin: 0.8rem 1.3rem;
     margin-top: -1.8rem;
-  width: 21rem;
-  height: 0.38rem;
+    width: 21rem;
+    height: 0.38rem;
   }
   .social_media {
     height: auto;
   }
 }
-
 
 @media only screen and (max-width: 600px) {
   .header-wraper {
@@ -464,6 +474,9 @@ nav ul li {
   .main_project_for_desktop_project_page_only {
     height: auto;
   }
+  .button {
+    margin-bottom: 1rem;
+  }
   .card-title {
     font-size: 1.8rem;
   }
@@ -480,12 +493,13 @@ nav ul li {
   .about_me {
     font-size: 1rem;
     margin: 1.1rem;
+    margin-top: 3rem;
   }
   .skills {
     margin: 0.8rem 1.3rem;
     margin-top: -1.8rem;
-  width: 21rem;
-  height: 0.38rem;
+    width: 18rem;
+    height: 0.38rem;
   }
   .social_media {
     height: auto;
@@ -498,12 +512,15 @@ nav ul li {
 } */
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media (min-width: 600px)  and (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 768px) {
   .header-wraper {
     height: auto;
   }
   .main_project_for_desktop_project_page_only {
     height: auto;
+  }
+  .button {
+    margin-bottom: 1rem;
   }
   .card-title {
     font-size: 1.8rem;
@@ -525,8 +542,8 @@ nav ul li {
   .skills {
     margin: 0.9rem 1.5rem;
     margin-top: -1.8rem;
-  width: 22rem;
-  height: 0.38rem;
+    width: 22rem;
+    height: 0.38rem;
   }
   .social_media {
     height: auto;
@@ -544,6 +561,9 @@ nav ul li {
   .card-text {
     font-size: 1rem;
   }
+  .button {
+    margin-bottom: 1rem;
+  }
   .infome {
     display: grid;
     margin-top: -2.6rem;
@@ -558,8 +578,8 @@ nav ul li {
   .skills {
     margin: 0.9rem 1.5rem;
     margin-top: -1.5rem;
-  width: 22rem;
-  height: 0.38rem;
+    width: 22rem;
+    height: 0.38rem;
   }
   .social_media {
     height: auto;
@@ -591,8 +611,8 @@ nav ul li {
   .skills {
     margin: 0.9rem 1.5rem;
     margin-top: -1rem;
-  width: 24rem;
-  height: 0.38rem;
+    width: 24rem;
+    height: 0.38rem;
   }
   .social_media {
     height: auto;
