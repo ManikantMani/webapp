@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css"
+import resume from "../images/resume.png";
+import resumePdf from "../images/ManikantMani.docx"
 
 const About = () => {
   return (
@@ -46,6 +48,13 @@ const About = () => {
                 <i class="fas fa-code"></i> 75%
               </div>
             </div>
+            <div className='resume_section'>
+            <h3 className="skill_heading">My Resume</h3>
+                <div className="resume_section_img">
+                    <img src={resume} alt="my_resume" />
+                </div>
+                <a href={resumePdf} download="Manikant_Mani">Download</a>
+                </div>
           </div>
         </div>
       </div>
