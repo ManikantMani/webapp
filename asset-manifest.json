@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webapp/static/css/main.6ffc88be.css",
-    "main.js": "/webapp/static/js/main.3cc0b0c0.js",
+    "main.js": "/webapp/static/js/main.8bfb3e45.js",
     "static/js/787.d302bc05.chunk.js": "/webapp/static/js/787.d302bc05.chunk.js",
     "static/media/int2.png": "/webapp/static/media/int2.0084eb955c85aa291aa4.png",
     "static/media/hippatext.png": "/webapp/static/media/hippatext.116d7940f550f68475b6.png",
@@ -21,7 +21,7 @@
     "static/media/int8.png": "/webapp/static/media/int8.7a58b07aa868a5ef4aac.png",
     "static/media/tigerZym.png": "/webapp/static/media/tigerZym.5054f64f75a379183b7f.png",
     "static/media/resume.png": "/webapp/static/media/resume.ec625e23e7f61239b95a.png",
-    "static/media/ManikantMani.docx": "/webapp/static/media/ManikantMani.dae42d8124c91d34fd6f.docx",
+    "static/media/ManikantMani.docx": "/webapp/static/media/ManikantMani.5e28279a9eacd3f7e37c.docx",
     "static/media/calculator.png": "/webapp/static/media/calculator.757aff7b65f46ff5a14e.png",
     "static/media/Best-quotes.png": "/webapp/static/media/Best-quotes.89f9d9713e8eff54937e.png",
     "static/media/List-your-item.png": "/webapp/static/media/List-your-item.81579d660516f3e942b2.png",
@@ -29,11 +29,11 @@
     "static/media/home11.jpg": "/webapp/static/media/home11.eea9dead15f241f1b359.jpg",
     "index.html": "/webapp/index.html",
     "main.6ffc88be.css.map": "/webapp/static/css/main.6ffc88be.css.map",
-    "main.3cc0b0c0.js.map": "/webapp/static/js/main.3cc0b0c0.js.map",
+    "main.8bfb3e45.js.map": "/webapp/static/js/main.8bfb3e45.js.map",
     "787.d302bc05.chunk.js.map": "/webapp/static/js/787.d302bc05.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ffc88be.css",
-    "static/js/main.3cc0b0c0.js"
+    "static/js/main.8bfb3e45.js"
   ]
 }
