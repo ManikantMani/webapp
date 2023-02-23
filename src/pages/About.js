@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css"
 import resume from "../images/resume.png";
-import resumePdf from "../images/ManikantMani.docx"
+import resumePdf from "../images/ManikantMani.pdf"
 
 const About = () => {
   return (
